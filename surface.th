@@ -1,0 +1,23 @@
+encoding  utf-8
+survey surface -title "поверхность"
+ 
+   centerline -author 2014 pawel.krawczyk@hush.com
+     date 2014.08.08
+     
+     cs lat-long
+
+     data normal from to length compass clino 
+
+     flags surface
+
+     0   1   14.4  239   6
+     1   2   12.2  274   1
+     36  F   11.6  117  -8
+     1   1.5 5.7   98    12
+     1.5 1.6 25.3  194  -23
+     1.6 F   37    214   4
+
+   endcenterline
+ 
+ endsurvey
+

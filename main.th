@@ -1,0 +1,37 @@
+encoding  utf-8
+survey main -title "пещера Гудукъала"
+  
+  input gudukala
+  input surface
+  input map1
+  input map2
+  input map3
+  input map4
+  input map5
+  input map6
+  input map7
+  input full
+  
+  map fullmap
+    full
+    full2
+  endmap
+  
+  map gudumap
+     scrap1
+     scrap2
+     scrap3
+     scrap4
+     scrap5
+     scrap6
+     scrap7
+  endmap
+  
+  centerline 
+  
+    equate 2@surface 2@gudukala
+    equate 36@surface 36@gudukala
+  endcenterline
+
+endsurvey
+
