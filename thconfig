@@ -3,10 +3,14 @@ language ru
 
 source main.th
 
-#select surface.main
+select surface.main
 select gudukala.main
-#select gudumap@main
-select fullmap@main
+
+# morphed output
+select gudumap@main
+
+# final map drawn on morphed scraps
+#select fullmap@main
 
 export model
 export model -format survex
@@ -31,5 +35,5 @@ layout normal
      map-comment "Баксанское ущеле, село Бедык"
 endlayout
 
-#export map -layout morph -format pdf
-export map -format pdf -layout normal
+export map -layout morph -format pdf -o morphed.pdf
+export map -format pdf -layout normal -o cave.pdf

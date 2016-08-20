@@ -1,6 +1,6 @@
 encoding  utf-8
-##XTHERION## xth_me_area_adjust -128 -3425 3345 128
-##XTHERION## xth_me_area_zoom_to 100
+##XTHERION## xth_me_area_adjust -136.0 -3425 3345 144.0
+##XTHERION## xth_me_area_zoom_to 50
 ##XTHERION## xth_me_image_insert {0 1 1.0} {0 {}} morphed-whole.png 0 {}
 
 
@@ -261,6 +261,9 @@ line floor-step
   smooth off
 endline
 
+line section
+endline
+
 line wall
   1386.0 -913.0
   1403.67 -931.0 1428.29 -944.17 1439.0 -967.0
@@ -445,6 +448,11 @@ line wall
   smooth off
   674.0 -903.0 645.0 -841.0 644.0 -809.0
   smooth off
+endline
+
+line section -reverse on
+  1182.0 -1233.0
+  1315.0 -1327.0
 endline
 
 line wall -reverse on
@@ -698,6 +706,8 @@ endline
 point 882.0 -1234.0 label -text "Зал сталактитов"
 
 point 485.0 -727.0 label -text "Озеро"
+
+point 1711.0 -643.0 label -text "Берлоги"
 
 line rock-border -close on
   139.0 -2556.0
@@ -1018,6 +1028,7 @@ endline
 line wall
   807.0 -2199.0
   807.0 -2199.0 824.0 -2187.0 840.0 -2209.0
+  smooth off
 endline
 
 line wall -subtype underlying
@@ -1047,6 +1058,7 @@ line wall -subtype underlying
   1030.0 -1622.0
   1024.67 -1610.33 1006.61 -1575.5 997.0 -1567.0
   990.75 -1561.47 959.76 -1575.38 950.0 -1594.0
+  smooth off
 endline
 
 line wall
@@ -1061,8 +1073,8 @@ line wall
   1562.12 -1797.76 1567.4 -1783.61 1566.0 -1771.0
   1561.54 -1730.84 1547.65 -1695.63 1518.0 -1667.0
   1486.63 -1636.71 1439.88 -1626.56 1398.0 -1623.0
-  1321.3 -1616.49 1363.19 -1622.82 1303.0 -1627.0
-  1253.1 -1630.47 1282.45 -1625.45 1231.0 -1641.0
+  1321.3 -1616.49 1363.44 -1622.07 1303.25 -1626.25
+  1253.35 -1629.72 1282.45 -1625.45 1231.0 -1641.0
   1172.23 -1658.77 1197.13 -1648.94 1148.0 -1667.0
   1035.7 -1708.29 1039.24 -1615.33 1030.0 -1622.0
   smooth off
@@ -1086,6 +1098,7 @@ line wall -subtype underlying
   777.0 -2055.0
   741.33 -2063.0 679.27 -2081.28 645.0 -2094.0
   584.45 -2116.46 552.85 -2134.9 498.0 -2169.0
+  smooth off
 endline
 
 line wall
@@ -1093,6 +1106,11 @@ line wall
   458.38 -2193.63 381.56 -2303.04 339.0 -2319.0
   326.2 -2323.8 311.67 -2319.67 298.0 -2320.0
   smooth off
+endline
+
+line gradient
+  976.0 -1968.0
+  979.0 -1914.0
 endline
 
 line gradient
@@ -1122,6 +1140,11 @@ line gradient
   1142.0 -1966.0
 endline
 
+area clay
+  l207-1500--1826
+  l208-1554--2112
+endarea
+
 line wall -close on -reverse on
   1357.0 -1881.0
   1349.23 -1852.69 1298.89 -1871.18 1271.0 -1862.0
@@ -1133,11 +1156,23 @@ line wall -close on -reverse on
   1347.86 -1893.49 1358.93 -1888.05 1357.0 -1881.0
 endline
 
+line border -id l208-1554--2112 -reverse on -subtype invisible
+  1595.0 -1854.0
+  1595.0 -1854.0 1598.0 -2220.0 1348.0 -1952.0
+  smooth off
+endline
+
+line border -id l207-1500--1826 -reverse on -subtype invisible
+  1348.0 -1952.0
+  1422.71 -1648.04 1595.0 -1854.0 1595.0 -1854.0
+  smooth off
+endline
+
 line floor-step
   1564.0 -1792.0
   1560.17 -1782.9 1548.54 -1754.42 1544.0 -1748.0
   1539.51 -1741.65 1531.38 -1738.43 1527.0 -1732.0
-  1521.2 -1723.5 1520.21 -1712.21 1514.0 -1704.0
+  1521.2 -1723.5 1521.36 -1713.74 1514.0 -1704.0
   1509.54 -1698.1 1501.8 -1695.6 1496.0 -1691.0
   1480.88 -1678.99 1478.38 -1670.97 1457.0 -1668.0
   1445.25 -1666.37 1438.12 -1678.25 1432.0 -1685.0
@@ -1192,8 +1227,6 @@ endline
 area debris
   l193-1715--1889
 endarea
-
-point 1303.0 -1627.0 label -text "Вход"
 
 point 1760.0 -1910.0 label -text "Вход"
 

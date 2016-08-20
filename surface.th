@@ -5,6 +5,8 @@ survey surface -title "поверхность"
      date 2014.08.08
      
      cs lat-long
+     fix 0 43:29:34.99 43:7:56.61 1082
+     # arka 43°29'34.99"N 43° 7'56.61"E
 
      data normal from to length compass clino 
 
