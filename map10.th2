@@ -1,0 +1,20 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -128 -1964 3392 128
+##XTHERION## xth_me_area_zoom_to 50
+##XTHERION## xth_me_image_insert {0 1 1.0} {0 {}} scrap10.jpg 0 {}
+
+
+
+scrap scrap10 -projection plan -scale [125.0 -2633.0 156.0 -2627.0 0.0 0.0 1 1 m] -sketch scrap10.jpg 0 -1836
+
+point 2342.0 -990.0 station -name E3@gudukala
+
+point 1992.0 -824.0 station -name E2@gudukala
+
+point 2326.0 -814.0 station -name E1@gudukala
+
+point 1576.0 -838.0 station -name 31@gudukala
+
+endscrap
+
+
