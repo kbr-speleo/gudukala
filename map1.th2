@@ -5,7 +5,7 @@ encoding  utf-8
 
 
 
-scrap scrap1 -projection plan -scale [592.0 -558.0 1164.0 -12.0 0.0 0.0 10 10 m] -sketch scrap1.jpg 0 -861
+scrap scrap1 -projection plan -scale [592.0 -558.0 1164.0 -12.0 0.0 0.0 10 10 m] -sketch scrap1.jpg 0 -826
 
 point 1234.0 -384.0 extra
 

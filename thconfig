@@ -15,12 +15,17 @@ select gudumap@main
 export model
 export model -format survex
 
-sketch-warp point
-
 layout morph
       sketches on
-      opacity 40
+      opacity 20
+      symbol-show group text
+      symbol-hide group cave-centerline
+      symbol-show point cave-station
+      transparency on
+      debug station-names
 endlayout
+
+sketch-warp point
 
 layout normal
      symbol-set BCRA
@@ -35,5 +40,6 @@ layout normal
      map-comment "Баксанское ущеле, село Бедык"
 endlayout
 
-export map -layout morph -format pdf -o morphed.pdf
+export map -layout morph -format svg -o morphed.svg
+export map -layout morph -format xvi -o morphed.xvi
 export map -format pdf -layout normal -o cave.pdf

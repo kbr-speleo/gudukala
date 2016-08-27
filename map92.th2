@@ -1,25 +1,25 @@
 encoding  utf-8
-##XTHERION## xth_me_area_adjust -128 -1502 1186 128
+##XTHERION## xth_me_area_adjust -128 -1396 1160 128
 ##XTHERION## xth_me_area_zoom_to 100
 ##XTHERION## xth_me_image_insert {0 1 1.0} {0 {}} scrap9-2.jpg 0 {}
 
 
 
-scrap scrap92 -projection plan -scale [125.0 -2633.0 156.0 -2627.0 0.0 0.0 1 1 m] -sketch scrap9-2.jpg 0 -1374
+scrap scrap92 -projection plan -scale [125.0 -2633.0 156.0 -2627.0 0.0 0.0 1 1 m] -sketch scrap9-2.jpg 0 -1268
 
-point 223.0 -215.0 station -name D6@gudukala
+point 258.0 -128.0 station -name D6@gudukala
 
-point 507.0 -386.0 station -name D5@gudukala
+point 538.0 -307.0 station -name D5@gudukala
 
-point 613.0 -460.0 station -name D4@gudukala
+point 638.0 -375.0 station -name D4@gudukala
 
-point 571.0 -705.0 station -name D3@gudukala
+point 607.0 -612.0 station -name D3@gudukala
 
-point 814.0 -732.0 station -name D2@gudukala
+point 849.0 -644.0 station -name D2@gudukala
 
-point 825.0 -985.0 station -name D1@gudukala
+point 854.0 -893.0 station -name D1@gudukala
 
-point 868.0 -1282.0 station -name 28@gudukala
+point 901.0 -1189.0 station -name 28@gudukala
 
 endscrap
 
