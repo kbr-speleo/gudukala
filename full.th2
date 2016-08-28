@@ -1,6 +1,7 @@
 encoding  utf-8
-##XTHERION## xth_me_area_adjust -144.0 -2948.0 3256.0 152.0
-##XTHERION## xth_me_area_zoom_to 25
+##XTHERION## xth_me_area_adjust -144.0 -2948.0 3256.0 184
+##XTHERION## xth_me_area_zoom_to 50
+##XTHERION## xth_me_image_insert {-16 1 1.0} {56 {}} morphed.png 0 {}
 
 
 
@@ -934,13 +935,13 @@ endline
 
 point 3090.0 -366.0 station -name 0@surface
 
+point 2347.5 -476.5 station -name 2@gudukala
+
 endscrap
 
 
 
 scrap full2 -projection plan -scale [125.0 -2633.0 156.0 -2627.0 0.0 0.0 1 1 m]
-
-point 2347.5 -476.5 station -name 2@gudukala
 
 point 1648.0 -1852.0 station -name 36@gudukala
 
