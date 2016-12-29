@@ -668,10 +668,6 @@ endline
 line wall
 endline
 
-point 1071.0 -1459.5 station -name 33@gudukala
-
-point 1425.5 -1350.0 station -name 37@gudukala
-
 point 1132.5 -1570.5 station -name 24@gudukala
 
 line wall
