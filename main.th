@@ -37,7 +37,7 @@ survey main -title "пещера Гудукъала"
      scrap4
      
      # entrance hall 
-     #scrap5
+     scrap5
      
      # stalactites
      scrap6
@@ -49,13 +49,13 @@ survey main -title "пещера Гудукъала"
      scrap8
      
      # balcony 1
-     #scrap91
+     scrap91
      
      # balcony 2 
-     #scrap92
+     scrap92
      
      # big hall
-     #scrap10
+     scrap10
      
      #wafielnica 1
      scrap11
