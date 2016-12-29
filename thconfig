@@ -7,17 +7,17 @@ select surface.main
 select gudukala.main
 
 # morphed output
-select gudumap@main
+#select gudumap@main
 
 # final map drawn on morphed scraps
-#select fullmap@main
+select fullmap@main
 
-export model
-export model -format survex
+#export model
+#export model -format survex
 
 layout morph
       sketches on
-      opacity 20
+      opacity 40
       symbol-show group text
       symbol-hide group cave-centerline
       symbol-show point cave-station
@@ -42,4 +42,6 @@ endlayout
 
 export map -layout morph -format svg -o morphed.svg
 export map -layout morph -format xvi -o morphed.xvi
+export map -layout morph -format pdf -o morphed.pdf
 export map -format pdf -layout normal -o cave.pdf
+export map -format svg -layout normal -o cave.svg
