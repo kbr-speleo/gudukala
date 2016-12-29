@@ -1,0 +1,36 @@
+encoding  utf-8
+survey main -title "Пещера Гудукъала"
+  
+  input gudukala
+  input surface
+  input map1
+  input map2
+  input map3
+  input map4
+  input map5
+  input map6
+  input map7
+  input map8
+  input map91
+  input map92
+  input map10
+  input map11
+
+  input plan-scraps
+  
+  # define map named 'fullmap'
+  map fullmap
+    # list of scraps
+    Plan-scrap5-bolshoi-zal
+    Plan-scrap9-obnimashki
+    Plan-scrap4-vosminog
+    Plan-scrap10-katedra
+  endmap
+  
+  centerline 
+    equate 2@surface 2@gudukala
+    equate 36@surface 36@gudukala
+  endcenterline
+
+endsurvey
+

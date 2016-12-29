@@ -1,0 +1,27 @@
+encoding  utf-8
+language ru
+
+source main2.th
+
+select surface.main
+select gudukala.main
+
+# final map drawn on morphed scraps
+select fullmap@main
+
+layout normal
+     symbol-set BCRA
+     scale 1 200
+     doc-author "Paweł Krawczyk"
+     doc-title "пещера Гудукъала"
+     statistics explo all  
+     statistics topo all
+     statistics carto all
+     statistics copyright all
+     legend on
+     map-comment "Баксанское ущеле, село Бедык"
+     colour map-fg scrap
+endlayout
+
+export map -format pdf -layout normal -o cave.pdf
+export map -format svg -layout normal -o cave.svg
