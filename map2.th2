@@ -1,51 +1,85 @@
 encoding  utf-8
-##XTHERION## xth_me_area_adjust -128 -3057 1673 128
+##XTHERION## xth_me_area_adjust 144.0 -3026.0 3396.0 68.0
 ##XTHERION## xth_me_area_zoom_to 50
-##XTHERION## xth_me_image_insert {0 1 1.0} {0 {}} scrap2.jpg 0 {}
+##XTHERION## xth_me_image_insert {272.0 1 1.0} {-60.0 {}} scraps2/scrap2.png 0 {}
 
 
 
-scrap scrap2 -projection plan -scale [200.0 -2464.0 688.0 -1968.0 0.0 0.0 10 10 m] -sketch scrap2.jpg 0 -2904
+scrap scrap2 -projection plan -scale [200.0 -2464.0 688.0 -1968.0 0.0 0.0 10 10 m] -sketch scraps2/scrap2.png 272.0 -1784.0
 
-point 1520.0 -1584.0 extra
+point 1664.0 -1386.0 station -name B4@gudukala
 
-point 1088.0 -1550.0 extra
+point 1872.0 -1340.0 station -name B3@gudukala
 
-point 734.0 -2400.0 extra
+point 1844.0 -1136.0 station -name B2@gudukala
 
-point 610.0 -2278.0 extra
+point 1866.0 -804.0 station -name B1@gudukala
 
-point 284.0 -1354.0 station -name B4@gudukala
+point 468.0 -1022.0 station -name 13@gudukala
 
-point 336.0 -1540.0 station -name B3@gudukala
+point 308.0 -708.0 station -name 12@gudukala
 
-point 506.0 -1480.0 station -name B2@gudukala
+point 550.0 -710.0 station -name 11@gudukala
 
-point 834.0 -1538.0 station -name B1@gudukala
+point 704.0 -558.0 station -name 10@gudukala
 
-point 648.0 -266.0 station -name 13@gudukala
+point 870.0 -666.0 station -name 9@gudukala
 
-point 944.0 -100.0 station -name 12@gudukala
+point 1234.0 -516.0 station -name 8@gudukala
 
-point 940.0 -314.0 station -name 11@gudukala
+point 1466.0 -740.0 station -name 7@gudukala
 
-point 1088.0 -462.0 station -name 10@gudukala
+point 1724.0 -448.0 station -name 6@gudukala
 
-point 986.0 -610.0 station -name 9@gudukala
+point 1844.0 -404.0 station -name 5@gudukala
 
-point 1116.0 -954.0 station -name 8@gudukala
+point 2672.0 -966.0 station -name 4@gudukala
 
-point 906.0 -1182.0 station -name 7@gudukala
+point 2874.0 -1158.0 station -name 3@gudukala
 
-point 1186.0 -1420.0 station -name 6@gudukala
+point 2048.0 -178.0 extra
 
-point 1222.0 -1530.0 station -name 5@gudukala
+point 1752.0 -550.0 extra
 
-point 670.0 -2318.0 station -name 4@gudukala
+point 1720.0 -400.0 extra
 
-point 488.0 -2508.0 station -name 3@gudukala
+point 1480.0 -552.0 extra
 
-point 616.0 -2886.0 station -name 2@gudukala
+point 764.0 -678.0 extra
+
+point 524.0 -652.0 extra
+
+point 884.0 -584.0 extra
+
+point 1236.0 -488.0 extra
+
+point 1224.0 -608.0 extra
+
+point 1758.0 -922.0 extra
+
+point 1962.0 -1194.0 extra
+
+point 1960.0 -1374.0 extra
+
+point 1806.0 -1306.0 extra
+
+point 1662.0 -1360.0 extra
+
+point 1670.0 -1410.0 extra
+
+point 2746.0 -894.0 extra
+
+point 2606.0 -1026.0 extra
+
+point 2842.0 -1246.0 extra
+
+point 2886.0 -1082.0 extra
+
+point 3218.0 -982.0 extra
+
+point 3230.0 -1150.0 extra
+
+point 3228.0 -1040.0 station -name 2@gudukala
 
 endscrap
 

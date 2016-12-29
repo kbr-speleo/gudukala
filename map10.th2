@@ -1,19 +1,31 @@
 encoding  utf-8
-##XTHERION## xth_me_area_adjust -128 -1964 3392 128
+##XTHERION## xth_me_area_adjust 292.0 -2610.0 2234.0 -338.0
 ##XTHERION## xth_me_area_zoom_to 50
-##XTHERION## xth_me_image_insert {0 1 1.0} {0 {}} scrap10.jpg 0 {}
+##XTHERION## xth_me_image_insert {420.0 1 1.0} {-466.0 {}} scraps2/scrap10.png 0 {}
 
 
 
-scrap scrap10 -projection plan -scale [125.0 -2633.0 156.0 -2627.0 0.0 0.0 1 1 m] -sketch scrap10.jpg 0 -1084
+scrap scrap10 -projection plan -scale [125.0 -2633.0 156.0 -2627.0 0.0 0.0 1 1 m] -sketch scraps2/scrap10.png 420.0 -2482.0
 
-point 1194.0 -672.0 station -name E3@gudukala
+point 1466.0 -794.0 station -name E3@gudukala
 
-point 850.0 -512.0 station -name E2@gudukala
+point 1208.0 -1342.0 station -name E2@gudukala
 
-point 1176.0 -506.0 station -name E1@gudukala
+point 1196.0 -818.0 station -name E1@gudukala
 
-point 432.0 -522.0 station -name 31@gudukala
+point 1458.0 -1236.0 extra
+
+point 734.0 -1350.0 extra
+
+point 1258.0 -960.0 extra
+
+point 1356.0 -752.0 extra
+
+point 686.0 -2030.0 extra
+
+point 1386.0 -1964.0 extra
+
+point 1224.0 -2002.0 station -name 31@gudukala
 
 endscrap
 

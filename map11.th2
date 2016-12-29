@@ -1,37 +1,39 @@
 encoding  utf-8
-##XTHERION## xth_me_area_adjust -128 -1988 1240 128
+##XTHERION## xth_me_area_adjust 58.0 -2797.0 1973.0 96.0
 ##XTHERION## xth_me_area_zoom_to 50
-##XTHERION## xth_me_image_insert {0 1 1.0} {0 {}} scrap11.jpg 0 {}
+##XTHERION## xth_me_image_insert {186.0 1 1.0} {-32.0 {}} scraps2/scrap8.png 0 {}
 
 
 
-scrap scrap11 -projection plan -scale [125.0 -2633.0 156.0 -2627.0 0.0 0.0 1 1 m] -sketch scrap11.jpg 0 -1860
+scrap scrap11 -projection plan -scale [125.0 -2633.0 156.0 -2627.0 0.0 0.0 1 1 m] -sketch scraps2/scrap8.png 186.0 -2669.0
 
-point 332.0 -766.0 station -name 25@gudukala
+point 642.0 -1166.0 station -name 25@gudukala
 
-point 198.0 -1696.0 station -name 17@gudukala
+point 444.0 -2562.0 station -name 17@gudukala
 
-point 746.0 -382.0 station -name C6@gudukala
+point 1282.0 -572.0 station -name C6@gudukala
 
-point 564.0 -546.0 station -name C5@gudukala
+point 998.0 -818.0 station -name C5@gudukala
 
-point 274.0 -704.0 station -name C4@gudukala
+point 552.0 -1070.0 station -name C4@gudukala
 
-point 214.0 -1238.0 station -name C3@gudukala
+point 466.0 -1892.0 station -name C3@gudukala
 
-point 958.0 -614.0 extra
+point 648.0 -2600.0 station -name C1@gudukala
 
-point 772.0 -774.0 extra
+point 638.0 -2226.0 station -name C2@gudukala
 
-point 316.0 -1244.0 extra
+point 1480.0 -44.0 station -name C7@gudukala
 
-point 216.0 -1510.0 extra
+point 1226.0 -1238.0 extra
 
-point 330.0 -1470.0 extra
+point 314.0 -1244.0 extra
 
-point 328.0 -1726.0 station -name C1@gudukala
+point 682.0 -1158.0 extra
 
-point 874.0 -72.0 station -name C7@gudukala
+point 620.0 -1918.0 extra
+
+point 1542.0 -974.0 extra
 
 endscrap
 
